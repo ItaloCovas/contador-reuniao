@@ -14,7 +14,7 @@ function timer() {
         minutes++;
     }
 
-    if(minutes == 1) {
+    if(minutes == 3) {
         clearInterval(cron);
         alert('O TEMPO ACABOU!');
     }
